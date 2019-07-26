@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleTablayout App</string>
+    <string name="google">GOOGLE</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="terms">By signin up,you agree to Terms of use</string>
+    <string name="login">LOGIN</string>
+    <string name="create">CREATE ACCOUNT</string>
+    <string name="signin">Already a member? <u>Signin</u>.</string>
+    <string name="loginwith">Or Login with</string>
+    <string name="registerwith">Or Register with</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="firstname">FIRSTNAME</string>
+    <string name="lastname">LASTNAME</string>
+    <string name="username">USERNAME</string>
+    <string name="dob">DATE OF BIRTH</string>
+    <string name="mail">EMAIL</string>
+    <string name="pass">PASSWORD</string>
+
+</resources>

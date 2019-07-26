@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/txtView_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/txtView_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+          />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_marginTop="10dp"/>
+    
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/button_round_corner"
+                android:textColor="@color/tabtextcolor"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginwith"
+                android:layout_marginTop="20dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="18dp">
+
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:text="@string/facebook"
+                        android:drawableLeft="@drawable/ic_facebook"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/facebook_round_corner"
+                        android:textColor="@drawable/button_text_color"
+                        android:textSize="16sp"/>
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:drawableLeft="@drawable/ic_google"
+                        android:text="@string/google"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:background="@drawable/google_round_corner_button"
+                        android:textColor="@drawable/button_text_color"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+
+
+
+</LinearLayout>
